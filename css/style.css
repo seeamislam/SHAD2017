@@ -7,6 +7,10 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
+h1{
+	color: 4cc4c4;
+	
+}
 h2 {
 	margin: 0 0 20px 0;
 	font-weight: 500;
@@ -138,7 +142,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-color: #FFF;
 }
 .section-title {
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 }
 .section-title p {
 	font-size: 18px;
@@ -153,7 +157,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin: 0;
 	font-size: 17px;
 	border-radius: 12px 0 12px 0;
-	margin-top: 20px;
+	margin-top: 10px;
 	transition: all 0.5s;
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
@@ -162,21 +166,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Header Section */
 .intro {
-	display: table;
-	width: 100%;
-	padding: 0;
-	background: url(../img/intro-bg.jpg) no-repeat center bottom;
-	background-color: #e5e5e5;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
+	background-color: #ffffff;
+
 }
 .intro .overlay {
-	background: rgba(0,0,0,0.40);
+	
 }
 .intro h1 {
-	color: #fff;
+	color: #4cc4c4;
 	font-size: 68px;
 	font-weight: 400;
 	margin-top: 0;
@@ -188,16 +185,19 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-weight: 600;
 }
 .intro p {
-	color: #fff;
+	color: #32CD32;
 	font-size: 24px;
 	font-weight: 300;
-	margin-top: 10px;
+	margin-top: 5px;
 	margin-bottom: 40px;
 }
 header .intro-text {
-	padding-top: 300px;
+	padding-top: 200px;
 	padding-bottom: 200px;
-	text-align: center;
+	text-align: right;
+	background-color: white;
+	background: url(../img/header.jpg);
+	    background-size: 1200px 800px;
 }
 /* About Section */
 #about {
@@ -208,6 +208,7 @@ header .intro-text {
 	font-size: 20px;
 	text-transform: uppercase;
 }
+#about .about-text {
 #about .about-text {
 	margin-left: 10px;
 	margin-top: 20px;
