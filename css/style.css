@@ -242,112 +242,13 @@ header .intro-text {
 	padding: 10px 0;
 	text-transform: uppercase;
 }
-/* Portfolio Section */
-#portfolio {
-	padding: 120px 0;
-	background: #f6f6f6;
-}
-.categories {
-	padding-bottom: 40px;
-	text-align: center;
-}
-ul.cat li {
-	display: inline-block;
-}
-ol.type li {
-	display: inline-block;
-	margin-left: 20px;
-}
-ol.type li a {
-	color: #4cc4c4;
-	font-weight: 400;
-	font-size: 15px;
-	padding: 10px 20px;
-	border: 2px solid #4cc4c4;
-	border-radius: 10px 0 10px 0;
-	text-transform: uppercase;
-	letter-spacing: 0.5px;
-}
-ol.type li a.active {
-	background: #4cc4c4;
-	color: #fff;
-}
-ol.type li a:hover {
-	background: #4cc4c4;
-	color: #fff;
-}
-.isotope-item {
-	z-index: 2
-}
-.isotope-hidden.isotope-item {
-	z-index: 1
-}
-.isotope, .isotope .isotope-item {
-	/* change duration value to whatever you like */
-	-webkit-transition-duration: 0.8s;
-	-moz-transition-duration: 0.8s;
-	transition-duration: 0.8s;
-}
-.isotope-item {
-	margin-right: -1px;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-.isotope {
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-webkit-transition-property: height, width;
-	-moz-transition-property: height, width;
-	transition-property: height, width;
-}
-.isotope .isotope-item {
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-webkit-transition-property: -webkit-transform, opacity;
-	-moz-transition-property: -moz-transform, opacity;
-	transition-property: transform, opacity;
-}
-.portfolio-item {
-	margin: 15px 0;
-}
-.portfolio-item .hover-bg {
-	overflow: hidden;
-	position: relative;
-}
-.portfolio-item img {
-	border-radius: 0 50px 0 50px;
-}
-.hover-bg .hover-text {
-	position: absolute;
-	text-align: center;
-	margin: 0 auto;
-	color: #333;
-	background: rgba(255, 255, 255, 0.75);
-	padding: 30% 0 0 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
+ i.fa {
+	font-size: 40px;
+	margin-bottom: 20px;
 	transition: all 0.5s;
-	border-radius: 0 50px 0 50px;
+	color: #B34B4B;
 }
-.hover-bg .hover-text>h4 {
-	opacity: 0;
-	color: #333;
-	-webkit-transform: translateY(100%);
-	transform: translateY(100%);
-	transition: all 0.3s;
-	font-size: 18px;
-	font-weight: 400;
-}
-.hover-bg:hover .hover-text>h4 {
-	opacity: 1;
-	-webkit-backface-visibility: hidden;
-	-webkit-transform: translateY(0);
-	transform: translateY(0);
-}
-.hover-bg:hover .hover-text {
-	opacity: 1;
-}
+
 
 /* Contact Section */
 #contact {
