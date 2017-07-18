@@ -206,7 +206,7 @@ header .intro-text {
 /* About Section */
 #about {
 	padding: 120px 0;
-	background: #f6f6f6;
+	background: #ffffff;
 }
 #about h3 {
 	font-size: 20px;
@@ -241,12 +241,6 @@ header .intro-text {
 #services h3 {
 	padding: 10px 0;
 	text-transform: uppercase;
-}
- i.fa {
-	font-size: 40px;
-	margin-bottom: 20px;
-	transition: all 0.5s;
-	color: #B34B4B;
 }
 
 
