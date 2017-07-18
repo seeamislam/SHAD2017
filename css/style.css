@@ -6,6 +6,7 @@ body, html {
 	font-weight: 300;
 	width: 100% !important;
 	height: 100% !important;
+	
 }
 h1{
 	color: 4cc4c4;
@@ -195,9 +196,12 @@ header .intro-text {
 	padding-top: 200px;
 	padding-bottom: 200px;
 	text-align: right;
-	background-color: white;
-	background: url(../img/header.jpg);
-	    background-size: 1200px 800px;
+	background-image: url(../img/header2.jpg);
+	background-size: 1150px 750px;
+    background-repeat: no-repeat;
+	background-position: -100px -100px;
+	
+
 }
 /* About Section */
 #about {
@@ -344,44 +348,7 @@ ol.type li a:hover {
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
-/* Team Section */
-#team {
-	color: #fff;
-	background: #4cc4c4 url(../img/team-bg.jpg) center top no-repeat;
-	background-size: cover;
-}
-#team .overlay {
-	padding: 120px 0;
-	background: rgba(167, 196, 76, 0.9);
-}
-#team h2, #team p {
-	color: #fff;
-}
-#team hr {
-	background: #fff;
-}
-#team h3 {
-	color: #fff;
-	font-weight: 500;
-	font-size: 20px;
-	margin: 5px 0;
-}
-#team .team-img {
-	width: 200px;
-	height: 200px;
-	border-radius: 50px 0 50px 0;
-	box-shadow: 15px 0 #96b044;
-}
-#team .thumbnail {
-	background: transparent;
-	border: 0;
-}
-#team .thumbnail .caption {
-	padding-top: 10px;
-}
-#team .thumbnail .caption p {
-	color: #fff;
-}
+
 /* Contact Section */
 #contact {
 	padding: 120px 0 60px 0;
