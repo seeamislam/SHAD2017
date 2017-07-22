@@ -8,6 +8,9 @@ body, html {
 	height: 100% !important;
 	
 }
+strong{
+font-weight: 400;	
+}
 h1{
 	color: 4cc4c4;
 	
@@ -205,14 +208,13 @@ header .intro-text {
 }
 /* About Section */
 #about {
-	padding: 120px 0;
+	padding: 100px 0;
 	background: #ffffff;
 }
 #about h3 {
 	font-size: 20px;
 	text-transform: uppercase;
 }
-#about .about-text {
 #about .about-text {
 	margin-left: 10px;
 	margin-top: 20px;
@@ -223,12 +225,13 @@ header .intro-text {
 	box-shadow: -15px 0 #4cc4c4;
 }
 #about p {
-	line-height: 24px;
-	margin: 15px 0 30px;
+	
+	margin: 5px 0 5px;
+	font-size: 20px;
 }
 /* Services Section */
 #services {
-	padding: 120px 0;
+	padding: 90px 0;
 }
 #services .service {
 	padding-left: 40px;
@@ -238,6 +241,10 @@ header .intro-text {
 	border-radius: 75px 0 75px 0;
 	box-shadow: 15px 0 #4cc4c4;
 }
+#services p{
+	font-size: 20px;
+	
+}
 #services h3 {
 	padding: 10px 0;
 	text-transform: uppercase;
@@ -246,8 +253,8 @@ header .intro-text {
 
 /* Contact Section */
 #contact {
-	padding: 120px 0 60px 0;
-	background: #F6F6F6;
+	padding: 100px 0 60px 0;
+	background: #fff;
 }
 #contact form {
 	padding: 30px 0;
